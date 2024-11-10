@@ -32,15 +32,3 @@ local Section = Tab:AddSection({
 --[[
 Name = <string> - The name of the section.
 ]]
-
-Section:AddButton({
-	Name = "Test!",
-	Callback = function()
-      		print("button pressed")
-  	end    
-})
-
---[[
-Name = <string> - The name of the button.
-Callback = <function> - The function of the button.
-]]
